@@ -6,7 +6,6 @@ import org.graphstream.graph.Graph;
 import org.graphstream.graph.Node;
 import org.graphstream.graph.implementations.SingleGraph;
 import org.graphstream.stream.GraphParseException;
-
 import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
