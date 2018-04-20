@@ -1,0 +1,26 @@
+graph {
+    padding:10px;
+}
+
+node {
+    size: 5px;
+    fill-color: #191919;
+    text-mode: hidden;
+    z-index: 0;
+}
+
+node.center_nodes {
+    shape:box;
+    size:10px;
+    fill-color: #c0151a;
+    text-mode: hidden;
+    z-index: 2;
+}
+
+edge {
+    size:2px;
+    shape: line;
+    fill-mode: dyn-plain;
+    fill-color: #3bb5c0, #555, green, yellow;
+    arrow-size: 3px, 2px;
+}
