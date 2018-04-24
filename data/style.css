@@ -3,7 +3,7 @@ graph {
 }
 
 node {
-    size: 5px;
+    size: 3px;
     fill-color: #191919;
     text-mode: hidden;
     z-index: 0;
@@ -18,7 +18,7 @@ node.center_nodes {
 }
 
 edge {
-    size:2px;
+    size:1px;
     shape: line;
     fill-mode: dyn-plain;
     fill-color: #3bb5c0, #555, green, yellow;

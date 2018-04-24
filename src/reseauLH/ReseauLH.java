@@ -28,7 +28,6 @@ public class ReseauLH {
     private Graph graph;
 
 
-
     /* -------------------- */
     /* --- Contructeurs --- */
     /* -------------------- */
@@ -288,5 +287,6 @@ public class ReseauLH {
      * @author Weber Delia
      * @version 1.0
      */
-    public void showGraph() { this.graph.display(false); }
+    public void showGraph() {
+        this.graph.display(false); }
 }

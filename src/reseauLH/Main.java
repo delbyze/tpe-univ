@@ -17,8 +17,10 @@ public class Main {
 
         // Test de GPX
         ReseauLH reseau = new ReseauLH("Reseau Le Havre", "test.gpx");
+        ReseauLH reseau2 = new ReseauLH("Reseau Le Havre", "rct.gpx");
 
         reseau.showGraph();
+        reseau2.showGraph();
 
 
         // Test : read a GPX file
