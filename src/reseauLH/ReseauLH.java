@@ -6,6 +6,8 @@ import org.graphstream.graph.Graph;
 import org.graphstream.graph.Node;
 import org.graphstream.graph.implementations.SingleGraph;
 import org.graphstream.stream.GraphParseException;
+import org.graphstream.stream.file.FileSourceGPX;
+
 import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,19 +15,71 @@ import java.util.HashMap;
 
 import static org.graphstream.algorithm.Toolkit.*;
 
+/**
+ * Classe de création et calcul d'un réseau
+ * @author Weber Delia
+ * @version 1.1
+ */
 public class ReseauLH {
+
+    /* ------------------------- */
+    /* --- Variables Globaux --- */
+    /* ------------------------- */
     private Graph graph;
 
+
+
+    /* -------------------- */
+    /* --- Contructeurs --- */
+    /* -------------------- */
+
+    /**
+     * Contructeur
+     * @author Weber Delia
+     * @param id   Identifieur du graphe
+     * @param file Nom du fichier source que le graphe doit représenter
+     * @version 1.1
+     */
     public ReseauLH(String id, String file) {
+
+        String filePath = "data/" + file;
+
         this.graph = new SingleGraph(id);
-        try {
-            this.graph.read("data/"+file);
-        } catch (IOException | GraphParseException e) {
-            e.printStackTrace();
+
+        if(file.endsWith(".gpx"))
+        {
+            FileSourceGPX fs = new FileSourceGPX();
+            fs.addSink(this.graph);
+
+            try {
+                fs.readAll(filePath);
+            } catch( IOException e) {
+
+            } finally {
+                fs.removeSink(this.graph);
+            }
         }
+        else
+        {
+            try {
+                this.graph.read(filePath);
+            } catch (IOException | GraphParseException e) {
+                e.printStackTrace();
+            }
+        }
+
         this.initialiseStyle();
     }
 
+    /* ---------------- */
+    /* --- Méthodes --- */
+    /* ---------------- */
+
+    /**
+     * Méthode d'initiallisation de style
+     * @author Weber Delia
+     * @version 1.0
+     */
     private void initialiseStyle() {
         System.setProperty("org.graphstream.ui.renderer","org.graphstream.ui.j2dviewer.J2DGraphRenderer");
         this.graph.addAttribute("ui.quality"); // better quality for pixel node
@@ -33,30 +87,72 @@ public class ReseauLH {
         this.graph.addAttribute("ui.stylesheet","url('data/style.css')"); // set a stylesheet
     }
 
+    /**
+     * Getter du nombre de noeuds
+     * @author Weber Delia
+     * @return Le nombre de noeud du graphe
+     * @version 1.0
+     */
     public int getNbNodes() {
         return this.graph.getNodeCount();
     }
 
+    /**
+     * Getter du nombre d'aretes
+     * @author Weber Delia
+     * @return Le nombre d'aretes du graphe
+     * @version 1.0
+     */
     public int getNbEdges() {
         return this.graph.getEdgeCount();
     }
 
+    /**
+     * Getter du degré moyen du graphe
+     * @author Weber Delia
+     * @return Le degré du graphe
+     * @version 1.0
+     */
     public double getAverageDegree() {
         return averageDegree(this.graph);
     }
 
+    /**
+     * Getter des degrés de distribution du graphe
+     * @author Weber Delia
+     * @return Les degrés de distribution du graphe
+     * @version 1.0
+     */
     public int[] getDegreeDistribution() {
         return degreeDistribution(this.graph);
     }
 
+    /**
+     * Getter du coefficient de clustering du graphe
+     * @author Weber Delia
+     * @return Le coefficient de clustering du graphe
+     * @version 1.0
+     */
     public double getClusteringCoefficient() {
         return averageClusteringCoefficient(this.graph);
     }
 
+    /**
+     * Getter du Diametre du graphe
+     * @author Weber Delia
+     * @return Le diametre du graphe
+     * @version 1.0
+     */
     public double getDiameter() {
        return diameter(this.graph,"length",false);
     }
 
+    /**
+     * Donne la longueur moyen du graphe en fonction de ses aretes
+     * @author Weber Delia
+     * @return La longueur moyenne du graphe
+     * @version 1.0
+     */
     public double getAverageLenght() {
         double average_length = 0.0;
         double cpt = 0.0;
@@ -84,6 +180,12 @@ public class ReseauLH {
         return average_length/cpt;
     }
 
+    /**
+     * Donne l'excentricité minimal du graphe
+     * @author Weber Delia
+     * @return l'excentricité miniaml du graphe
+     * @version 1.0
+     */
     public String getEccentricityMin() {
         String ret = "";
         ArrayList<Node> ecc_min_nodes = new ArrayList<>();
@@ -126,6 +228,12 @@ public class ReseauLH {
         return ret+"\n  Valeur : "+ecc_min;
     }
 
+    /**
+     * Donne la centralité intermédiaire du graphe
+     * @author Weber Delia
+     * @return la centralité intermédiaire du graphe
+     * @version 1.0
+     */
     public String getBetweennessCentrality() {
         String ret = "";
         int cpt_max = 0;
@@ -175,5 +283,10 @@ public class ReseauLH {
         return ret;
     }
 
+    /**
+     * Donne la centralité intermédiaire du graphe
+     * @author Weber Delia
+     * @version 1.0
+     */
     public void showGraph() { this.graph.display(false); }
 }

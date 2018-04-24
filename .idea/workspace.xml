@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ed360f2-3469-468b-aae3-75200e7ea277" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/reseauLH/Main.java" afterPath="$PROJECT_DIR$/src/reseauLH/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/reseauLH/ReseauLH.java" afterPath="$PROJECT_DIR$/src/reseauLH/ReseauLH.java" />
+    <list default="true" id="4ed360f2-3469-468b-aae3-75200e7ea277" name="Default" comment="Modi">
+      <change afterPath="$PROJECT_DIR$/data/test.gpx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TPE/reseauLH/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPE/reseauLH/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TPE/reseauLH/ReseauLH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPE/reseauLH/ReseauLH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reseauLH/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reseauLH/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reseauLH/ReseauLH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reseauLH/ReseauLH.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,32 +22,28 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="lh.dgs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/lh.dgs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="ReseauLH.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reseauLH/ReseauLH.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="514">
+              <caret line="289" column="7" lean-forward="true" selection-start-line="289" selection-start-column="7" selection-end-line="289" selection-end-column="7" />
               <folding>
-                <element signature="e#1199#1200#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1414#1415#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-                <element signature="e#1657#1658#0" expanded="true" />
-                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2255#2256#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
+                <element signature="e#2334#2335#0" expanded="true" />
+                <element signature="e#2382#2383#0" expanded="true" />
+                <element signature="e#2422#2423#0" expanded="true" />
+                <element signature="e#2470#2471#0" expanded="true" />
+                <element signature="e#2514#2515#0" expanded="true" />
+                <element signature="e#2567#2568#0" expanded="true" />
+                <element signature="e#2615#2616#0" expanded="true" />
+                <element signature="e#2678#2679#0" expanded="true" />
+                <element signature="e#2713#2714#0" expanded="true" />
+                <element signature="e#2770#2771#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +52,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reseauLH/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,25 +61,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/style.css">
+      <file leaf-file-name="rce.gpx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/rce.gpx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-end-line="3006" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.gpx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/test.gpx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="1869" selection-start-line="1869" selection-end-line="1869" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>red</find>
+      <find>trk</find>
+      <find>wpt</find>
+      <find>Node</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/reseauLH/ReseauRoutier.java" />
         <option value="$PROJECT_DIR$/src/reseauLH/Clicks.java" />
         <option value="$PROJECT_DIR$/data/style.css" />
+        <option value="$PROJECT_DIR$/data/test2.gpx" />
+        <option value="$PROJECT_DIR$/data/test.gpx" />
         <option value="$PROJECT_DIR$/src/reseauLH/ReseauLH.java" />
         <option value="$PROJECT_DIR$/src/reseauLH/Main.java" />
       </list>
@@ -99,57 +111,59 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TPE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TPE" type="462c0819:PsiDirectoryNode" />
+              <item name="tpe-univ3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpe-univ3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TPE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TPE" type="462c0819:PsiDirectoryNode" />
+              <item name="tpe-univ3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpe-univ3" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpe-univ3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpe-univ3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpe-univ3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpe-univ3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reseauLH" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -172,48 +186,23 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="reseauLH.Main" />
+      <module name="TPE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="reseauLH.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="reseauLH.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TPE" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -223,24 +212,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -253,17 +231,21 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -272,13 +254,10 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list>
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -299,36 +278,37 @@
     <option name="totallyTimeSpent" value="5744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3478261" sideWeight="0.5138889" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3478261" sideWeight="0.4861111" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49166667" weight="0.32919255" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51432294" side_tool="true" weight="0.3475862" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4856771" weight="0.4924138" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49722221" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18489583" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32965517" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827586" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,44 +322,78 @@
       <path value="$PROJECT_DIR$/tpe-univ" />
     </ignored-roots>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/lh.dgs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/reseauLH/ReseauLH.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2382#2383#0" expanded="true" />
+            <element signature="e#2422#2423#0" expanded="true" />
+            <element signature="e#2470#2471#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2567#2568#0" expanded="true" />
+            <element signature="e#2615#2616#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2713#2714#0" expanded="true" />
+            <element signature="e#2770#2771#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/lh.dgs">
+    <entry file="file://$PROJECT_DIR$/data/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reseauLH/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reseauLH/ReseauLH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2382#2383#0" expanded="true" />
+            <element signature="e#2422#2423#0" expanded="true" />
+            <element signature="e#2470#2471#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2567#2568#0" expanded="true" />
+            <element signature="e#2615#2616#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2713#2714#0" expanded="true" />
+            <element signature="e#2770#2771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lh.dgs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reseauLH/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -389,86 +403,97 @@
     <entry file="file://$PROJECT_DIR$/data/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reseauLH/Clicks.java" />
     <entry file="file://$PROJECT_DIR$/data/lh.dgs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/explication" />
     <entry file="jar://$PROJECT_DIR$/lib/gs-core-1.3/gs-core-1.3-sources.jar!/org/graphstream/stream/file/FileSourceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
           <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/gs-core-1.3/gs-core-1.3-sources.jar!/org/graphstream/stream/file/gml/GMLParserTokenManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
-          <caret line="584" column="0" lean-forward="false" selection-start-line="584" selection-start-column="0" selection-end-line="584" selection-end-column="0" />
-          <folding />
+          <caret line="584" selection-start-line="584" selection-end-line="584" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/gs-core-1.3/gs-core-1.3-sources.jar!/org/graphstream/stream/file/gml/GMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/gs-core-1.3/gs-core-1.3-sources.jar!/org/graphstream/stream/file/FileSourceParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
-          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
-          <folding />
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rce.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-end-line="3006" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test2.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="1869" selection-start-line="1869" selection-end-line="1869" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reseauLH/ReseauLH.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="514">
+          <caret line="289" column="7" lean-forward="true" selection-start-line="289" selection-start-column="7" selection-end-line="289" selection-end-column="7" />
           <folding>
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2382#2383#0" expanded="true" />
+            <element signature="e#2422#2423#0" expanded="true" />
+            <element signature="e#2470#2471#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2567#2568#0" expanded="true" />
+            <element signature="e#2615#2616#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2713#2714#0" expanded="true" />
+            <element signature="e#2770#2771#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reseauLH/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -540,6 +565,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

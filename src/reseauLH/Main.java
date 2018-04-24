@@ -12,11 +12,19 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\n*** TPE : Modélisation de la vie urbaine ***\n");
 
-        ReseauLH reseau = new ReseauLH("Reseau Le Havre", "lh.dgs");
+        // Test de DGS
+        //ReseauLH reseau = new ReseauLH("Reseau Le Havre", "lh.dgs");
+
+        // Test de GPX
+        ReseauLH reseau = new ReseauLH("Reseau Le Havre", "test.gpx");
+
         reseau.showGraph();
 
+
         // Test : read a GPX file
-        reseauWithGPX("Reseau Le Havre", "rce.gpx");
+        //reseauWithGPX("Reseau Le Havre", "rce.gpx");
+
+        /* --- Partie calcul --- */
 
         // Some basic measures
         int i;
@@ -42,8 +50,13 @@ public class Main {
 
         // Betweenness centrality
         System.out.println("\n- Betweenness centrality : " + reseau.getBetweennessCentrality());
+
+
     }
 
+
+    /* --- Deprecated --- */
+    /*
     public static void reseauWithGPX(String id, String file) {
         String filePath = "data/" + file;
         Graph g = new SingleGraph(id);
@@ -68,4 +81,5 @@ public class Main {
         System.out.println(g.getEdgeCount());
         System.out.println(g.getNodeCount());
     }
+    */
 }
