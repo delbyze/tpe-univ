@@ -313,4 +313,15 @@ public class ReseauLH {
                 break;
         }
     }
+
+    /**
+     * Retourne le graphe courant
+     * @author Weber Delia
+     * @version 1.0
+     */
+    public Graph getGraph() {
+        return this.graph;
+    }
+
+
 }
