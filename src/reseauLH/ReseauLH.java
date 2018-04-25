@@ -143,7 +143,7 @@ public class ReseauLH {
      * @version 1.0
      */
     public double getDiameter() {
-       return diameter(this.graph,"length",false);
+        return diameter(this.graph,"length",false);
     }
 
     /**
@@ -168,9 +168,9 @@ public class ReseauLH {
                 Node tmp_node = null;
 
                 for(Node n_path : dijkstra.getPathNodes(n2)) {
-                   if(tmp_node != null)
+                    if(tmp_node != null)
                         tmp_length += (double) n_path.getEdgeFrom(tmp_node).getAttribute("length");
-                   tmp_node = n_path;
+                    tmp_node = n_path;
                 }
                 cpt++;
                 average_length += tmp_length;
@@ -236,11 +236,11 @@ public class ReseauLH {
     public String getBetweennessCentrality() {
         String ret = "";
         int cpt_max = 0;
-        
+
         HashMap<String, Integer> edges = new HashMap<>();
         for(Edge e : this.graph.getEachEdge())
             edges.put(e.getId(),0);
-        
+
         Dijkstra dijkstra = new Dijkstra(Dijkstra.Element.EDGE, null, "length");
         dijkstra.init(this.graph);
 
@@ -288,5 +288,29 @@ public class ReseauLH {
      * @version 1.0
      */
     public void showGraph() {
-        this.graph.display(false); }
+        this.graph.display(false);
+    }
+
+    /**
+     * Modifie le type du graphe
+     * @author Weber Delia
+     * @param index Index du type
+     * @version 1.0
+     */
+    public void setGraphType(int index) {
+        switch (index) {
+            case 1 :
+                for(Edge e : this.graph.getEachEdge())
+                    e.setAttribute("ui.class","cyclable");
+                break;
+            case 2 :
+                for(Edge e : this.graph.getEachEdge())
+                    e.setAttribute("ui.class","transport_commun");
+                break;
+            default:
+                for(Edge e : this.graph.getEachEdge())
+                    e.setAttribute("ui.class","route");
+                break;
+        }
+    }
 }

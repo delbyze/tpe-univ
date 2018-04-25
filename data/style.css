@@ -21,6 +21,17 @@ edge {
     size:1px;
     shape: line;
     fill-mode: dyn-plain;
-    fill-color: #3bb5c0, #555, green, yellow;
     arrow-size: 3px, 2px;
+}
+
+edge.route {
+    fill-color: #3bb5c0, #555, green, yellow;
+}
+
+edge.cyclable {
+    fill-color: #c02330, #555, green, yellow;
+}
+
+edge.transport_commun {
+    fill-color: #c0b626, #554339, #3e6480, #cc8cff;
 }
