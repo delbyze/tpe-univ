@@ -117,16 +117,6 @@ public class ReseauLH {
     }
 
     /**
-     * Getter des degrés de distribution du graphe
-     * @author Weber Delia
-     * @return Les degrés de distribution du graphe
-     * @version 1.0
-     */
-    public int[] getDegreeDistribution() {
-        return degreeDistribution(this.graph);
-    }
-
-    /**
      * Getter du coefficient de clustering du graphe
      * @author Weber Delia
      * @return Le coefficient de clustering du graphe
@@ -283,7 +273,7 @@ public class ReseauLH {
     }
 
     /**
-     * Donne la centralité intermédiaire du graphe
+     * Affiche le graphe courant
      * @author Weber Delia
      * @version 1.0
      */
@@ -307,21 +297,14 @@ public class ReseauLH {
                 for(Edge e : this.graph.getEachEdge())
                     e.setAttribute("ui.class","transport_commun");
                 break;
+            case 3 :
+                for(Edge e : this.graph.getEachEdge())
+                    e.setAttribute("ui.class","voiture");
+                break;
             default:
                 for(Edge e : this.graph.getEachEdge())
-                    e.setAttribute("ui.class","route");
+                    e.setAttribute("ui.class","lh");
                 break;
         }
     }
-
-    /**
-     * Retourne le graphe courant
-     * @author Weber Delia
-     * @version 1.0
-     */
-    public Graph getGraph() {
-        return this.graph;
-    }
-
-
 }
